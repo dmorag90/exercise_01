@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script async src="js/contactForm.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="./img/nature-logo.png" alt="logo" id="logo" />
+    </div>
+
+    <header>
+      <div class="item item1">
+        <h1>Health Benefits Of Cranberry Tea</h1>
+        <p>
+          Walk through any health store and you are sure to come across several
+          cranberry flavored drinks and teas. Cranberry, in all its forms, has
+          become popular amongst the health conscious populace. Packed with
+          nutrients, the delicious cranberry tea can give your body a punch of
+          health. The best thing about this cranberry herbal tea is that it can
+          be blended with other teas and juices, raising the health quotient up
+          a notch!
+        </p>
+        <p>
+          Drinking cranberry tea is safe and provides numerous health benefits.
+          Filled with vitamins and anti-oxidants, cranberry tea sure is a
+          delicious way to stay healthy!
+        </p>
+        <p>
+          Each cup of cranberry tea contains various minerals and vitamins like
+          Vitamin C, K and E. All these nutrients are vital for good health.
+          This small evergreen shrub is one of those treasures of nature that
+          should be a part of your daily diet!
+        </p>
+      </div>
+      <div class="item item2">
+        <img src="./img/CranberryTea_01.jpg" alt="" />
+      </div>
+    </header>
+    <main>
+      <div class="itemMain item4">
+        <h1>Send Us a Mail</h1>
+        <p>A present voucher will be sent in return</p>
+        <img src="./img/CranberryTea_02.jpg" alt="" />
+      </div>
+      <div class="itemMain item5">
+        <form action="" name="forme" id="regForm">
+          <table class="tab1">
+            <tr>
+              <th><label for="usern">Full Name:</label></th>
+              <td>
+                <input type="text" name="usern" placeholder="Enter your name" />
+              </td>
+            </tr>
+            <tr>
+              <th></th>
+              <td><span id="errorName"></span></td>
+            </tr>
+
+            <tr>
+              <th><label for="usere">Email:</label></th>
+              <td>
+                <input
+                  type="text"
+                  name="usere"
+                  placeholder="Enter your email address"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th></th>
+              <td><span id="errorEmail"></span></td>
+            </tr>
+            <tr>
+              <th><label for="userp">Phone:</label></th>
+              <td>
+                <input
+                  type="text"
+                  name="userp"
+                  placeholder="Enter your phone number"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th></th>
+              <td><span id="errorPhone"></span></td>
+            </tr>
+          </table>
+          <input type="button" id="subBtn" value="Click" onclick="user()" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>Green Tea Forever &copy 2020</p>
+    </footer>
+  </body>
+</html>
